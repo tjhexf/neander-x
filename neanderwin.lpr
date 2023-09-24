@@ -12,8 +12,6 @@ uses
   uAjuda in 'uAjuda.pas' {formAjuda},
   uAssemb in 'uAssemb.pas' {formAssembler};
 
-{$R *.res}
-
 begin
   Application.Initialize;
   Application.CreateForm(TformPrincipal, formPrincipal);
